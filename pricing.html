@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutionsHub</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./extra.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header class="md:w-4/5 md:mx-auto">
+        <div class="lg:hidden">
+            <button class="p-4" id="togoller">
+                <i class="fas fa-bars text-lg"></i>
+            </button>
+        </div>
+        <nav id="nav_bar" class="lg:flex flex-col h-screen md:flex-row md:justify-between items-center  md:h-28 hidden">
+            <div>
+               <a href="./index.html"> <img class="h-28" src="./img/logo.jpg" alt=""></a>
+            </div>
+            <div>
+                <ul class="flex flex-col md:flex-row gap-10 items-center">
+                    <li><a class="text-base font-semibold" href="./index.html">Home</a></li>
+                    <li><a class="text-base font-semibold" href="./about.html">About</a></li>
+                    <li><a class="text-base font-semibold" href="./features.html">Features</a></li>
+                    <li><a class="text-base font-semibold active" href="./pricing.html">Pricing</a></li>
+                    <li><a class="text-base font-semibold" href="#">Contact</a></li>
+                    <li><a class="btn bg-black text-white px-3 py-2 rounded-md" href="#">Sign up</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="w-4/5 mx-auto my-20">
+        <section>
+            <div class="text-center">
+                <h2 class="text-3xl font-bold my-5">Pricing</h2>
+                <p>Our pricing is competitive and tailored to your business needs</p>
+            </div>
+            <!-- Pricing -->
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-20">
+                <div class="card max-w-sm mx-auto bg-white border border-black rounded-lg shadow-lg p-6">
+                    <div class="icon">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m2 0a2 2 0 110 4H7a2 2 0 110-4h10zm2 0a2 2 0 100-4H7a2 2 0 100 4h10z"></path>
+                        </svg>
+                    </div>
+                    <h2 class="text-center text-2xl font-bold mb-4">Basic Plan</h2>
+                    <ul class="text-black mb-6">
+                        <li class="border-b border-gray-300 py-2">Storage Space: 10GB</li>
+                        <li class="border-b border-gray-300 py-2">Number of Users: Up to 5 users</li>
+                        <li class="border-b border-gray-300 py-2">Support Level: Email support</li>
+                        <li class="border-b border-gray-300 py-2">Customization Options: Limited branding customization</li>
+                        <li class="border-b border-gray-300 py-2">Integration Options: Basic integrations</li>
+                        <li class="border-b border-gray-300 py-2">Advanced Features: Basic reporting</li>
+                        <li class="border-b border-gray-300 py-2">Security Features: SSL encryption</li>
+                        <li class="border-b border-gray-300 py-2">Updates and Maintenance: Regular updates included</li>
+                        <li class="py-2">Training Resources: Basic tutorials</li>
+                    </ul>
+                    <div class="text-center text-xl font-bold mb-4">$9.99/month</div>
+                    <a href="#" class="btn block text-center py-2 border-2 border-black text-black rounded hover:bg-black hover:text-white transition">Choose Plan</a>
+                </div>
+        
+                <div class="card max-w-sm mx-auto bg-white border border-black rounded-lg shadow-lg p-6">
+                    <div class="icon">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m2 0a2 2 0 110 4H7a2 2 0 110-4h10zm2 0a2 2 0 100-4H7a2 2 0 100 4h10z"></path>
+                        </svg>
+                    </div>
+                    <h2 class="text-center text-2xl font-bold mb-4">Standard Plan</h2>
+                    <ul class="text-black mb-6">
+                        <li class="border-b border-gray-300 py-2">Storage Space: 50GB</li>
+                        <li class="border-b border-gray-300 py-2">Number of Users: Up to 20 users</li>
+                        <li class="border-b border-gray-300 py-2">Support Level: Email and phone support</li>
+                        <li class="border-b border-gray-300 py-2">Customization Options: Moderate branding customization</li>
+                        <li class="border-b border-gray-300 py-2">Integration Options: Advanced integrations</li>
+                        <li class="border-b border-gray-300 py-2">Advanced Features: Advanced analytics</li>
+                        <li class="border-b border-gray-300 py-2">Security Features: SSL encryption, data backup</li>
+                        <li class="border-b border-gray-300 py-2">Updates and Maintenance: Regular updates and maintenance included</li>
+                        <li class="py-2">Training Resources: Advanced training materials</li>
+                    </ul>
+                    <div class="text-center text-xl font-bold mb-4">$29.99/month</div>
+                    <a href="#" class="btn block text-center py-2 border-2 border-black text-black rounded hover:bg-black hover:text-white transition">Choose Plan</a>
+                </div>
+        
+                <div class="card max-w-sm mx-auto bg-white border border-black rounded-lg shadow-lg p-6">
+                    <div class="icon">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m2 0a2 2 0 110 4H7a2 2 0 110-4h10zm2 0a2 2 0 100-4H7a2 2 0 100 4h10z"></path>
+                        </svg>
+                    </div>
+                    <h2 class="text-center text-2xl font-bold mb-4">Premium Plan</h2>
+                    <ul class="text-black mb-6">
+                        <li class="border-b border-gray-300 py-2">Storage Space: Unlimited</li>
+                        <li class="border-b border-gray-300 py-2">Number of Users: Unlimited</li>
+                        <li class="border-b border-gray-300 py-2">Support Level: 24/7 chat support</li>
+                        <li class="border-b border-gray-300 py-2">Customization Options: Full branding customization</li>
+                        <li class="border-b border-gray-300 py-2">Integration Options: Full API access</li>
+                        <li class="border-b border-gray-300 py-2">Advanced Features: Automation, custom reporting</li>
+                        <li class="border-b border-gray-300 py-2">Security Features: SSL encryption, data backup, two-factor authentication</li>
+                        <li class="border-b border-gray-300 py-2">Updates and Maintenance: Priority updates and maintenance</li>
+                        <li class="py-2">Training Resources: Webinars and personalized training sessions</li>
+                    </ul>
+                    <div class="text-center text-xl font-bold mb-4">$49.99/month</div>
+                    <a href="#" class="btn block text-center py-2 border-2 border-black text-black rounded hover:bg-black hover:text-white transition">Choose Plan</a>
+                </div>
+            </div>
+        </section>     
+    </main>
+    <footer class="w-4/5 mx-auto flex items-center justify-between mt-48 mb-4 p-5 shadow-xl rounded-lg border-b border-solid border-black">
+        <div>
+            <h2 class="text-3xl font-bold my-4">TechSolution Hub</h2>
+            <p>2021 © TechSolutions Hub All rights reserved.</p>
+        </div>
+        <div>
+            <ul class="flex flex-col gap-4 md:items-center">
+                <li><a class="text-base font-semibold" href="./index.html">Home</a></li>
+                <li><a class="text-base font-semibold" href="#">About</a></li>
+                <li><a class="text-base font-semibold" href="#">Features</a></li>
+                <li><a class="text-base font-semibold" href="#">Pricing</a></li>
+                <li><a class="text-base font-semibold" href="#">Contact</a></li>
+                
+
+            </ul>
+        </div>
+        <div>
+            <ul class="flex flex-col gap-4 md:items-center">
+                <li><a class="text-base font-semibold" href="#"><i class="fab fa-facebook me-2"></i>Facebook</a></li>
+                <li><a class="text-base font-semibold" href="#"><i class="fab fa-instagram me-2"></i>Instagram</a></li>
+                <li><a class="text-base font-semibold" href="#"><i class="fab fa-twitter-square me-2"></i>Twitter</a></li>
+                <li><a class="text-base font-semibold" href="#"><i class="fab fa-linkedin me-2"></i>Linkedin</a></li>
+
+            </ul>
+        </div>
+        <div>
+            <ul class="flex flex-col gap-5">
+                <li><a class="text-base font-semibold" href="./index.html">Privacy Policy</a></li>
+                <li><a class="text-base font-semibold" href="#">Terms of Services</a></li>
+
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>

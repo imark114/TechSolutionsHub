@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutionsHub</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./extra.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header class="w-4/5 mx-auto">
+        <div class="lg:hidden">
+            <button class="p-4" id="togoller">
+                <i class="fas fa-bars text-lg"></i>
+            </button>
+        </div>
+        <nav id="nav_bar" class="lg:flex flex-col h-screen md:flex-row md:justify-between items-center  md:h-28 hidden">
+            <div>
+               <a href="./index.html"> <img class="h-28" src="./img/logo.jpg" alt=""></a>
+            </div>
+            <div>
+                <ul class="flex flex-col md:flex-row gap-10 items-center">
+                    <li><a class="text-base font-semibold active" href="./index.html">Home</a></li>
+                    <li><a class="text-base font-semibold" href="./about.html">About</a></li>
+                    <li><a class="text-base font-semibold" href="./features.html">Features</a></li>
+                    <li><a class="text-base font-semibold" href="./pricing.html">Pricing</a></li>
+                    <li><a class="text-base font-semibold" href="#">Contact</a></li>
+                    <li><a class="btn bg-black text-white px-3 py-2 rounded-md" href="#">Sign up</a></li>
+
+                </ul>
+            </div>
+        </nav>
+        <section class="w-full md:h-[70vh] flex flex-col md:flex-row md:justify-between md:items-center md:px-3">
+            <div class="md:w-1/2 md:px-4 capitalize">
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight">Empower your projects with TechSolutions Hub</h1>
+                <p class="text-base my-5">Join our community and unlock the benefits now! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi mollitia, ipsa ratione quos porro.</p>
+                <a class="btn bg-black text-white px-5 py-4 my-3 inline-block rounded-md font-semibold" href="#">Try for Free</a>
+            </div>
+            <div>
+                <img src="./img/hero.png" alt="Banner">
+            </div>
+        </section>
+    </header>
+    <main class="w-4/5 mx-auto my-20">
+        <section>
+            <div class="my-10 flex flex-col md:w-[700px] mx-auto">
+                <h2 class="text-4xl font-bold my-4">Discover Our Key Features and Benefits</h2>
+                <p>Our feature cards highlight the key features and benefits of our product, helping you understand why it's the best solution for your needs.</p>
+            </div>
+            <div class="flex flex-col md:flex-row md:justify-center gap-28">
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="./img/f1.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Streamlined Workflow</h2>
+                      <p>Efficiently manage your tasks and projects with our streamlined workflow feature.</p>
+                    </div>
+                  </div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="./img/f2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Your data is secure</h2>
+                      <p>Rest assured knowing that your data is secure and protected with our advanced security measures.</p>
+                    </div>
+                  </div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="./img/f3.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Real-Time Collaboration</h2>
+                      <p>Collaborate with your team in real-time, making it easier to work together and achieve your goals.</p>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <section class="md:mt-60">
+           <div class="md:w-3/4 w-screen flex flex-col md:flex-row md:items-center md:justify-between px-7 relative md:mx-auto md:h-[700px] shadow-lg">
+            <div>
+                <div class="md:absolute md:top-[-155px]" >
+                    <img src="./img/f5.png" alt="#">
+                </div>
+                <div class="mt-20">
+                    <h2 class="text-4xl font-bold my-4">Join our community</h2>
+                    <p class="my-5">Optimize your operations in 3 simple steps.</p>
+                    <a class="btn bg-black px-4 py-3 text-white" href="#">Get Started</a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h3 class="text-2xl font-bold my-5">Step 1</h3>
+                    <p class="text-lg">Connect with our experts for a personalized session.</p>
+                    <hr class="my-7">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold my-5">Step 2</h3>
+                    <p class="text-lg">Receive a tailored package for your needs.</p>
+                    <hr class="my-7">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold my-5">Step 1</h3>
+                    <p class="text-lg">Optimize option with ease.</p>
+                    <hr class="my-7">
+                </div>
+            </div>
+           </div>
+        </section>
+
+        <section class="md:mt-60">
+            <div class="w-80 mx-auto text-center">
+                <h2 class="text-4xl font-bold my-4">Customer Stories</h2>
+                <p>Discover why our customer love us</p>
+            </div>
+            <div class="flex flex-col md:flex-row md:justify-center gap-5 my-10">
+                <div class="w-[400px] text-center p-5 shadow-xl">
+                    <h4 class="text-xl font-bold my-4">Transforming businesses with TechSolution Hub</h4>
+                    <div>
+                        <div>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="text-lg font-bold">Customer</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias soluta ipsam atque totam dolores facilis deleniti ea est sequi, ipsa sed distinctio vitae, autem doloremque?</p>
+                    </div>
+                </div>
+                <div class="w-[400px] text-center p-5 shadow-xl">
+                    <h4 class="text-xl font-bold my-4">Unlock your business potential with TechSolutions Hub.</h4>
+                    <div>
+                        <div>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="text-lg font-bold">Customer</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias soluta ipsam atque totam dolores facilis deleniti ea est sequi, ipsa sed distinctio vitae, autem doloremque?</p>
+                    </div>
+                </div>
+                <div class="w-[400px] text-center p-5 shadow-xl">
+                    <h4 class="text-xl font-bold my-4">Empowering businesses to thrive.</h4>
+                    <div>
+                        <div>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="text-lg font-bold">Customer</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias soluta ipsam atque totam dolores facilis deleniti ea est sequi, ipsa sed distinctio vitae, autem doloremque?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex flex-col md:flex-row md:justify-between md:items-center p-6 md:shadow-xl rounded-lg mt-48">
+            <div>
+                <h2 class="text-3xl font-bold">Join TechSolutions Hub Today</h2>
+                <p class="my-4">Transform your processes now.</p>
+                <a class="btn bg-black px-4 py-3 text-white" href="#">Get Started</a>
+            </div>
+            <div>
+                <img src="./img/f6.png" alt="">
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="md:w-4/5 w-screen mx-auto flex flex-col md:flex-row items-center justify-between mt-48 mb-4 p-5 shadow-xl rounded-lg border-b border-solid border-black">
+        <div>
+            <h2 class="text-3xl font-bold my-4">TechSolution Hub</h2>
+            <p>2021 © TechSolutions Hub All rights reserved.</p>
+        </div>
+        <div>
+            <ul class="flex flex-row md:flex-col gap-4 md:items-center">
+                <li><a class="text-base font-semibold" href="./index.html">Home</a></li>
+                <li><a class="text-base font-semibold" href="./about.html">About</a></li>
+                <li><a class="text-base font-semibold" href="./features.html">Features</a></li>
+                <li><a class="text-base font-semibold" href="./pricing.html">Pricing</a></li>
+                <li><a class="text-base font-semibold" href="#">Contact</a></li>
+                
+
+            </ul>
+        </div>
+        <div>
+            <ul class="flex flex-row md:flex-col gap-4 md:items-center">
+                <li><a class="text-base font-semibold" href="#"><i class="fab fa-facebook me-2"></i>Facebook</a></li>
+                <li><a class="text-base font-semibold" href="#"><i class="fab fa-instagram me-2"></i>Instagram</a></li>
+                <li><a class="text-base font-semibold" href="#"><i class="fab fa-twitter-square me-2"></i>Twitter</a></li>
+                <li><a class="text-base font-semibold" href="#"><i class="fab fa-linkedin me-2"></i>Linkedin</a></li>
+
+            </ul>
+        </div>
+        <div>
+            <ul class="flex flex-col gap-5">
+                <li><a class="text-base font-semibold" href="./index.html">Privacy Policy</a></li>
+                <li><a class="text-base font-semibold" href="#">Terms of Services</a></li>
+
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
